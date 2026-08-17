@@ -1,0 +1,61 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+wheels/
+*.egg-info
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment and secrets
+.env
+.env.local
+.env.production
+.env.development
+!.env.example
+credentials.json
+token.json
+*.pem
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Logs
+*.log
+logs/
+
+# Local data
+*.db
+*.sqlite
+*.sqlite3
+budgets.json
+expense-tracker-session*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Deprecated
+_agents_deprecated/
